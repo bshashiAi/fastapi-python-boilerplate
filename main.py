@@ -1,3 +1,12 @@
+from fastapi import FastAPI
+from fastapi.responses import HTMLResponse
+
+
+app = FastAPI(
+    title="Vercel + FastAPI",
+    description="Vercel + FastAPI",
+    version="1.0.0",
+
 import aiohttp
 import asyncio
 from datetime import datetime
